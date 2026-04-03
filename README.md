@@ -33,6 +33,12 @@
 | `weather` | 天气预报 |
 | `windows-screenshot` | Windows 截图工具 |
 | `xiucheng-self-improving-agent` | 个性化自我改进 |
+| `agent-browser-core` | 浏览器自动化（Rust + Playwright）|
+| `office-editor` | Word/Excel/PowerPoint 文件创建与编辑 |
+| `office-document-editor` | 专业 Word 编辑（修订模式、Git版本控制）|
+| `office-toolkit` | Office 综合工具包（读写、格式转换、批量处理）|
+
+> 📄 完整技能清单（含 CLI 依赖说明）见 `OpenClaw_技能CLI清单.md`（同步保存于桌面）
 
 ## ⏰ 定时任务
 
@@ -89,6 +95,7 @@ openclaw gateway start
 │   ├── TOOLS.md           # 工具笔记
 │   ├── HEARTBEAT.md       # 心跳任务
 │   ├── BACKUP.md          # 备份记录
+│   ├── OpenClaw_技能CLI清单.md  # 技能与CLI依赖清单
 │   ├── memory/            # 记忆文件
 │   └── skills/            # 已安装技能
 ├── cron/                  # 定时任务配置
