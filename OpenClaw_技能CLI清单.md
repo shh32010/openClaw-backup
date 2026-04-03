@@ -1,6 +1,6 @@
 # OpenClaw 技术 CLI 依赖清单
 
-> 整理时间：2026-04-03（更新：2026-04-03 17:56）| 桌面路径：`D:\Users\002\Desktop`
+> 整理时间：2026-04-03（更新：2026-04-03 18:01）| 桌面路径：`D:\Users\002\Desktop`
 
 ---
 
@@ -23,9 +23,9 @@
 | skill-vetter | 技能安全审查（安装前风险评估）|
 | openclaw-backup | 备份与恢复（自动推送 GitHub）|
 | agent-browser-core | 浏览器自动化（需 agent-browser CLI）|
-| **office-editor** | Word/Excel/PowerPoint 文件创建与编辑 |
-| **office-document-editor** | 专业 Word 编辑（修订模式、格式化保留、Git版本控制）|
-| **office-toolkit** | Office 综合工具包（读写、格式转换、批量处理）|
+| office-editor | Word/Excel/PowerPoint 文件创建与编辑 |
+| office-document-editor | 专业 Word 编辑（修订模式、格式化保留、Git版本控制）|
+| office-toolkit | Office 综合工具包（读写、格式转换、批量处理）|
 
 ---
 
