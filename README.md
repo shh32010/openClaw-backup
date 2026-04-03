@@ -1,6 +1,6 @@
 # openClaw-backup
 
-> 浩哥的 AI 助手（OpenClaw）工作区自动备份仓库
+> 宝宝的 AI 助手（OpenClaw）工作区自动备份仓库
 
 ## 📦 仓库简介
 
