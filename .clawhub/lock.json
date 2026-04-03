@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "capability-evolver": {
+      "version": "1.40.2",
+      "installedAt": 1775183591226
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775185919535
+    },
+    "openclaw-backup": {
+      "version": "1.0.0",
+      "installedAt": 1775207471907
+    },
+    "agent-browser-core": {
+      "version": "1.0.1",
+      "installedAt": 1775209016801
+    },
+    "office-editor": {
+      "version": "1.0.1",
+      "installedAt": 1775210185586
+    },
+    "office-document-editor": {
+      "version": "1.0.0",
+      "installedAt": 1775210191079
+    },
+    "office-toolkit": {
+      "version": "1.0.1",
+      "installedAt": 1775210196620
+    }
+  }
+}

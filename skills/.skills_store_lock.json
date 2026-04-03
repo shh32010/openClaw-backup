@@ -24,6 +24,30 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=openclaw-backup",
       "source": "skillhub",
       "version": "1.0.0"
+    },
+    "agent-browser-core": {
+      "name": "Agent Browser Core",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=agent-browser-core",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "office-editor": {
+      "name": "Office-Editor",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=office-editor",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "office-document-editor": {
+      "name": "Office Document Editor",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=office-document-editor",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "office-toolkit": {
+      "name": "Office Toolkit",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=office-toolkit",
+      "source": "skillhub",
+      "version": "1.0.1"
     }
   }
 }
