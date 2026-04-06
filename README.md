@@ -46,23 +46,23 @@
 |--------|------|------|------|
 | 早安问候 | 每天 07:00–09:00 | error | 早间问候语 |
 | 午间问候 | 每天 12:00–14:00 | ok | 午间问候语 |
-| 晚间问候 | 每天 18:00–20:00 | ok | 晚间问候语 |
+| 晚间问候 | 每天 18:00–20:00 | error | 晚间问候语 |
 | 睡前问候 | 每天 21:00–22:00 | ok | 睡前问候语 |
 | 每日天气提醒 | 每天 08:00、19:00 | error | 天气信息推送 |
-| **每日备份** | **每天 03:00** | **ok** | **自动备份并推送到 GitHub** |
+| **每日备份** | **每天 03:00** | error | **自动备份并推送到 GitHub** |
 
 ## 🔄 备份流程
 
 ```
 定时触发（每天 03:00 Asia/Shanghai）
     │
-    ├── 运行 backup.sh → 生成 openclaw-YYYY-MM-DD_HHMM.tar.gz
+    ├── 运行 backup-task.ps1 → 生成 openclaw-YYYY-MM-DD_HHMM.zip
     │
     ├── 更新 BACKUP.md 记录（时间、大小、路径）
     │
     ├── git add + git commit
     │
-    └── git push origin master && main
+    └── git push origin master
 ```
 
 ## 🔧 本地恢复流程
@@ -123,5 +123,4 @@ openclaw gateway start
 
 ---
 
-_本文件由每日备份任务自动更新，最后更新于 2026-04-03_
->>>>>>> master
+_本文件由每日备份任务自动更新，最后更新于 2026-04-06_
