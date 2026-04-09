@@ -1,10 +1,25 @@
 # OpenClaw 技术 CLI 依赖清单
 
-> 整理时间：2026-04-03（更新：2026-04-03 18:01）| 桌面路径：`D:\Users\002\Desktop`
+> 整理时间：2026-04-08 | 桌面路径：`D:\Users\002\Desktop`
 
 ---
 
-## ✅ 已就绪（无需额外安装）
+## ✅ 已安装（clawhub 安装）
+
+| 技能 | 版本 | 说明 |
+|------|------|------|
+| capability-evolver | 1.40.2 | AI 代理自我进化引擎 |
+| skill-vetter | 1.0.0 | 安全审计技能（安装前风险评估）|
+| openclaw-backup | 1.0.0 | 备份与恢复（自动推送 GitHub）|
+| agent-browser-core | 1.0.1 | 浏览器自动化（需 agent-browser CLI）|
+| office-editor | 1.0.1 | Word/Excel/PowerPoint 文件创建与编辑 |
+| office-document-editor | 1.0.0 | 专业 Word 编辑 |
+| office-toolkit | 1.0.1 | Office 综合工具包（读写、格式转换、批量处理）|
+| bailian-web-search | 1.0.4 | 百度搜索 |
+
+---
+
+## ✅ OpenClaw 内置技能（无需安装）
 
 | 技能 | 说明 |
 |------|------|
@@ -18,14 +33,7 @@
 | weather | 天气查询 |
 | windows-screenshot | Windows 截图 |
 | clawhub | ClawHub 技能市场 CLI |
-| capability-evolver | AI 自进化引擎（v1.40.2）|
 | summarize | 文本/视频/网页内容摘要提取 |
-| skill-vetter | 技能安全审查（安装前风险评估）|
-| openclaw-backup | 备份与恢复（自动推送 GitHub）|
-| agent-browser-core | 浏览器自动化（需 agent-browser CLI）|
-| office-editor | Word/Excel/PowerPoint 文件创建与编辑 |
-| office-document-editor | 专业 Word 编辑（修订模式、格式化保留、Git版本控制）|
-| office-toolkit | Office 综合工具包（读写、格式转换、批量处理）|
 
 ---
 
@@ -33,10 +41,10 @@
 
 | 技能 | 所需 CLI | 安装命令 | 备注 |
 |------|----------|----------|------|
-| github / gh-issues | gh | `winget install GitHub.cli` | GitHub CLI |
+| github / gh-issues | gh | ✅ 已安装 | GitHub CLI |
 | video-frames | ffmpeg | `winget install FFmpeg` | 视频帧提取 |
 | 1password | op | `winget install 1Password.cli` | 密码管理 CLI |
-| session-logs | jq | `winget install jq` | 日志分析 |
+| session-logs | jq | ✅ 已安装 | 日志分析 |
 | gog | gog-cli | `cargo install gog_cli` | Google Workspace |
 | goplaces | goplaces | `cargo install goplaces` | Google Places |
 | notion | ❓ | 需 Notion API Key | https://www.notion.so/my-integrations |
@@ -76,6 +84,14 @@
 | things-mac | Things 3（macOS 任务管理应用）|
 | sag | ElevenLabs TTS |
 | sherpa-onnx-tts | 本地离线 TTS |
+
+---
+
+## 📌 插件状态
+
+| 插件 | 版本 | 说明 |
+|------|------|------|
+| openclaw-weixin | 2.1.7 | 微信通道（已配置并正常运行）|
 
 ---
 
