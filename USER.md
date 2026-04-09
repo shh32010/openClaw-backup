@@ -1,6 +1,6 @@
 # USER.md - About Your Human
 
-- **Name:** 浩哥
+- **Name:** 浩哥（这是名字，但日常称呼是「宝宝」）
 - **What to call them:** 宝宝
 - **Pronouns:** 他
 - **Timezone:** Asia/Shanghai (GMT+8)
