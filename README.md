@@ -23,20 +23,20 @@
 
 | 技能 | 功能 |
 |------|------|
+| `agent-browser-core` | 浏览器自动化（Rust + Playwright）|
+| `bailian-web-search` | 百度网页搜索（AI 优化）|
 | `capability-evolver` | AI 自我进化引擎，持续分析与优化能力 |
 | `find-skills` | 技能搜索与安装助手 |
-| `openclaw-backup` | 备份与恢复管理 |
-| `skill-vetter` | 技能安全审查，安装前风险评估 |
-| `skillhub-preference` | 优先使用 skillhub 进行技能管理 |
-| `self-improving-agent` | 自我反思与持续改进 |
-| `self-improvement` | 学习、纠错与优化捕获 |
-| `weather` | 天气预报 |
-| `windows-screenshot` | Windows 截图工具 |
-| `xiucheng-self-improving-agent` | 个性化自我改进 |
-| `agent-browser-core` | 浏览器自动化（Rust + Playwright）|
 | `office-editor` | Word/Excel/PowerPoint 文件创建与编辑 |
 | `office-document-editor` | 专业 Word 编辑（修订模式、Git版本控制）|
 | `office-toolkit` | Office 综合工具包（读写、格式转换、批量处理）|
+| `openclaw-backup` | 备份与恢复管理 |
+| `self-improvement` | 学习、纠错与优化捕获 |
+| `skill-vetter` | 技能安全审查，安装前风险评估 |
+| `skillhub-preference` | 优先使用 skillhub 进行技能管理 |
+| `weather` | 天气预报 |
+| `windows-screenshot` | Windows 截图工具 |
+| `xiucheng-self-improving-agent` | 个性化自我改进 |
 
 > 📄 完整技能清单（含 CLI 依赖说明）见 `OpenClaw_技能CLI清单.md`（同步保存于桌面）
 
