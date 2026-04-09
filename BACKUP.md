@@ -11,4 +11,5 @@
 | 2026-04-04 | 08:08 | 17M (17,264,669 bytes) | `C:\Users\002\openclaw-backups\openclaw-2026-04-04_0808.tar.gz` |
 | 2026-04-06 | 09:00 | 16.2 MB (17,032,704 bytes) | `C:\Users\002\openclaw-backups\openclaw-2026-04-06_0859.zip` |
 | 2026-04-07 | 10:10 | 18.2 MB (19,055,942 bytes) | `C:\Users\002\openclaw-backups\openclaw-2026-04-07_1010.zip` |
+| 2026-04-09 | 09:01 | 23.8 MB (24,989,521 bytes) | `C:\Users\002\2026-04-09T01-01-35.398Z-openclaw-backup.tar.gz` |
 

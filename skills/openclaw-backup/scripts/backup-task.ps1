@@ -28,12 +28,13 @@ Get-ChildItem $BACKUP_DIR -Filter "openclaw-*.zip" | Sort-Object LastWriteTime -
 $entry = "| $((Get-Date).ToString('yyyy-MM-dd')) | $($DATE.Substring(11,2) + ':' + $DATE.Substring(13)) | $([math]::Round($size/1MB,1)) MB ($size bytes) | ``$BACKUP`` |"
 $mdPath = "$WS\BACKUP.md"
 $mdContent = Get-Content $mdPath -Raw
-$mdContent = $mdContent -replace '(?<line>\| 2026-\d{2}-\d{2} \|.*?\|`C:\\Users\\002\\openclaw-backups\\openclaw-20\d{6}_\d{4}\.(zip|tar\.gz)` \|)', $entry
+# Match any date format: 2026-04-04, 2026-04-09, etc.
+$mdContent = $mdContent -replace '(?<line>\| \d{4}-\d{2}-\d{2} \|.*?\|`C:\\Users\\002\\openclaw-backups\\openclaw-[^`]+` \|)', $entry
 Set-Content -Path $mdPath -Value $mdContent -NoNewline
 
 # Git add+commit+push
 git -C $WS add BACKUP.md
 git -C $WS commit -m "Backup $(Get-Date -Format 'yyyy-MM-dd_HHMM')" 2>$null
-git -C $WS push origin master 2>$null
+git -C $WS push origin main 2>$null
 
 Write-Host "DONE:$size"
