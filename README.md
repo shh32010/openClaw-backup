@@ -19,26 +19,60 @@
 
 > ⚠️ 备份已排除 `completions/` 缓存目录（自动生成）和日志文件（减小体积）
 
-## 🧩 已安装技能
+## 🧩 已安装技能（65 个）
+
+### 工作区技能（12 个）
+*位于 `~/.openclaw/workspace/skills/`*
 
 | 技能 | 功能 |
 |------|------|
 | `agent-browser-core` | 浏览器自动化（Rust + Playwright）|
-| `bailian-web-search` | 百度网页搜索（AI 优化）|
+| `bailian-web-search` | 阿里百灵网页搜索（AI 优化）|
 | `capability-evolver` | AI 自我进化引擎，持续分析与优化能力 |
 | `find-skills` | 技能搜索与安装助手 |
 | `office-editor` | Word/Excel/PowerPoint 文件创建与编辑 |
-| `office-document-editor` | 专业 Word 编辑（修订模式、Git版本控制）|
+| `office-document-editor` | 专业 Word 编辑（修订模式、Git 版本控制）|
 | `office-toolkit` | Office 综合工具包（读写、格式转换、批量处理）|
 | `openclaw-backup` | 备份与恢复管理 |
-| `self-improvement` | 学习、纠错与优化捕获 |
 | `skill-vetter` | 技能安全审查，安装前风险评估 |
 | `skillhub-preference` | 优先使用 skillhub 进行技能管理 |
-| `weather` | 天气预报 |
 | `windows-screenshot` | Windows 截图工具 |
 | `xiucheng-self-improving-agent` | 个性化自我改进 |
 
-> 📄 完整技能清单（含 CLI 依赖说明）见 `OpenClaw_技能CLI清单.md`（同步保存于桌面）
+### 全局内置技能（53 个）
+*位于 `node_modules/openclaw/skills/`*
+
+**Apple/macOS 专用（9 个）**
+`apple-notes`、`apple-reminders`、`bluebubbles`、`imsg`、`peekaboo`、`things-mac`、`tmux`、`sherpa-onnx-tts`、`sag`
+
+**智能家居/设备（5 个）**
+`openhue`（飞利浦 Hue）、`blucli`（BluOS）、`sonoscli`（Sonos）、`camsnap`（摄像头）、`eightctl`（智能床）
+
+**笔记/文档/待办（6 个）**
+`notion`、`obsidian`、`bear-notes`、`trello`、`1password`、`taskflow`
+
+**社交/消息（4 个）**
+`discord`、`slack`、`wacli`（WhatsApp）、`xurl`（Twitter/X）
+
+**开发/GitHub（7 个）**
+`github`、`gh-issues`、`coding-agent`、`mcporter`、`oracle`、`session-logs`、`clawhub`
+
+**AI/媒体（6 个）**
+`gemini`、`summarize`、`video-frames`、`songsee`、`openai-whisper`、`gifgrep`
+
+**云服务（3 个）**
+`gog`（Google Workspace）、`goplaces`（Google Places）、`blogwatcher`
+
+**邮件/通讯（2 个）**
+`himalaya`（终端邮件）、`voice-call`
+
+**音乐/播放（2 个）**
+`spotify-player`、`ordercli`（外卖）
+
+**实用工具（9 个）**
+`weather`、`healthcheck`、`node-connect`、`skill-creator`、`model-usage`、`nano-pdf`、`taskflow-inbox-triage`、`canvas`、`openai-whisper-api`
+
+> 📄 完整技能与 CLI 依赖清单（含安装命令）见 `OpenClaw_技能CLI清单.md`（同步保存于桌面）
 
 ## ⏰ 定时任务
 

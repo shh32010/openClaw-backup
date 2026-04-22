@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-20T05:01:25.941Z",
+  "entries": {
+    "memory:memory/2026-04-06.md:1:26": {
+      "key": "memory:memory/2026-04-06.md:1:26",
+      "path": "memory/2026-04-06.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "# 2026-04-06 日志 ## SQL对比任务（carbon.sql vs carbon改版.sql） **任务**：对比两个SQL文件，筛选\"销售计划完成率\"相关内容，输出到桌面 **文件位置**： - 原始：`D:\\Users\\002\\Desktop\\问题\\carbon.sql`（7.96MB，29340条语句） - 改版：`D:\\Users\\002\\Desktop\\问题\\carbon改版.sql`（6.75MB，27609条语句） **结果**： - 改版新增：660条 - 原始删除：666条 - 相同语句：11210条 - 输出文件：`D:\\Users\\002\\Desktop\\销售计划完成率差异.md`（372KB） **匹配关键词**：`销售计划`、`完成率`、`销售` **筛选结果涉及表**：`bid_bidding`、`contract_detail`、`data`等 **技术细节**： - Python 脚本：`C:\\Users\\002\\.openclaw\\workspace\\filter_sales_run.py` - 正则技巧：`s.replace('\\`', '')` 去除反引号后提取表名 - 归一化：去反引号 + VALUES PK值归一为 `@PK@` - Node.js 读取验证内容（PowerShell Python stdout 不支持UTF-8显示）",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.3156726456985326,
+      "maxScore": 0.7860762194644787,
+      "firstRecalledAt": "2026-04-08T12:31:16.233Z",
+      "lastRecalledAt": "2026-04-09T00:24:11.289Z",
+      "queryHashes": [
+        "b88653a73c83",
+        "57d8d16cc0f9",
+        "959c3f9bb929"
+      ],
+      "recallDays": [
+        "2026-04-08",
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "carbon.sql",
+        "carbon改版.sql",
+        "7.96mb",
+        "6.75mb",
+        "销售计划完成率差异.md",
+        "bid-bidding",
+        "contract-detail",
+        "filter-sales-run.py"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [cron:c362ab06-c710-44f9-84d1-ce9679ddfeb2 每日备份] Run the following PowerShell script and report the output: ``` & \"C:\\Users\\002\\.openclaw\\workspace\\skills\\openclaw-backup\\scripts\\backup-task.ps1\" ``` If the output contains DONE:, report that the backup succeeded and include",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "openclaw-backup",
+        "backup-task.ps1",
+        "user",
+        "cron:c362ab06",
+        "c710",
+        "44f9"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "User: A new session was started via /new or /reset. If runtime-provided startup context is included for this first turn, use it before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "runtime-provided",
+        "user",
+        "new",
+        "was",
+        "started",
+        "via",
+        "reset",
+        "runtime"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: A new session was started via /new or /reset. If runtime-provided startup context is included for this first turn, use it before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "runtime-provided",
+        "user",
+        "new",
+        "was",
+        "started",
+        "via",
+        "reset",
+        "runtime"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [cron:53d0cda8-6571-499e-aef8-beb2d0095f4e 晚间问候] 晚上好，宝宝！🌙 今天过得怎么样？ Current time: Sunday, April 19th, 2026 - 17:10 (Asia/Shanghai) / 2026-04-19 09:10 UTC Return your response as plain text; it will be delivered automatically. If the task explicitly calls for messaging a spe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron",
+        "53d0cda8",
+        "499e",
+        "aef8",
+        "beb2d0095f4e",
+        "晚间"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: A new session was started via /new or /reset. If runtime-provided startup context is included for this first turn, use it before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "runtime-provided",
+        "user",
+        "new",
+        "was",
+        "started",
+        "via",
+        "reset",
+        "runtime"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: A new session was started via /new or /reset. If runtime-provided startup context is included for this first turn, use it before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "runtime-provided",
+        "user",
+        "new",
+        "was",
+        "started",
+        "via",
+        "reset",
+        "runtime"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: [cron:9e7ae08e-4967-48ca-a1ae-2a91931b30d7 睡前问候] 晚安，宝宝！🌙 好好休息，明天见~ Current time: Sunday, April 19th, 2026 - 17:11 (Asia/Shanghai) / 2026-04-19 09:11 UTC Return your response as plain text; it will be delivered automatically. If the task explicitly calls for messaging a spe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron",
+        "9e7ae08e",
+        "48ca",
+        "a1ae",
+        "2a91931b30d7",
+        "睡前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [cron:b36832d7-d28b-411b-974c-03929e12bbe6 每日天气提醒（早晚）] 请获取扬州邗江区的当前天气（温度、湿度、风力、天气状况），然后发送给用户「宝宝」，内容简洁实用，作为早晚出门参考。称呼用户为「宝宝」。 Current time: Sunday, April 19th, 2026 - 17:10 (Asia/Shanghai) / 2026-04-19 09:10 UTC Return your response as plain text; it will be delivered automati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron:b36832d7",
+        "d28b",
+        "411b",
+        "974c",
+        "03929e12bbe6",
+        "每日"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [cron:54f4bc46-3e3b-4f62-8dce-2f56c1d5a649 早安问候] 早上好，宝宝！☀️ 今天有什么计划吗？ Current time: Monday, April 20th, 2026 - 12:52 (Asia/Shanghai) / 2026-04-20 04:52 UTC Return your response as plain text; it will be delivered automatically. If the task explicitly calls for messaging a sp",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron",
+        "54f4bc46",
+        "3e3b",
+        "4f62",
+        "8dce",
+        "2f56c1d5a649"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: gemsg：**早上好，宝宝！** 🌸 目前是 **12:52**，新的一天已经开始啦。让我先帮你快速梳理一下今天的安排和天气情况，方便你做好准备。 --- ### **🌤 天气概况（扬州市邗江区）** 我正在为你查询今天的天气情况，稍后更新～",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "gemsg",
+        "早上",
+        "宝宝",
+        "目前",
+        "新的",
+        "一天",
+        "已经"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: ### **☁️ 天气状况** **多云**，当前气温 **17°C**，湿度 **77%**，风速 **24 km/h**（微风）。建议带件薄外套，以防早晚凉。 --- ### **📅 日程概览** 我正在检查你的日程安排，稍后更新～ிப்புread{\"path\": \"memory/2026-04-20.md\"}",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "km/h",
+        "memory/2026-04-20.md",
+        "assistant",
+        "天气",
+        "状况",
+        "当前",
+        "气温",
+        "湿度"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [cron:b36832d7-d28b-411b-974c-03929e12bbe6 每日天气提醒（早晚）] 请获取扬州邗江区的当前天气（温度、湿度、风力、天气状况），然后发送给用户「宝宝」，内容简洁实用，作为早晚出门参考。称呼用户为「宝宝」。 Current time: Monday, April 20th, 2026 - 12:54 (Asia/Shanghai) / 2026-04-20 04:54 UTC Return your response as plain text; it will be delivered automati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron:b36832d7",
+        "d28b",
+        "411b",
+        "974c",
+        "03929e12bbe6",
+        "每日"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 宝宝，当前扬州邗江区天气： 🌥️ **阴天** 🌡️ **17°C** 💧 **湿度：77%** 💨 **风力：24 km/h（偏北风）** 早晚出门建议携带轻薄外套，防风防潮。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "km/h",
+        "assistant",
+        "宝宝",
+        "当前",
+        "扬州",
+        "天气",
+        "阴天",
+        "湿度"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: 梳理openclaw.json",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "梳理openclaw.json",
+        "user",
+        "梳理",
+        "openclaw.json"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: read{\"path\": \"C:\\\\Users\\\\002\\\\.openclaw\\\\openclaw.json\"}",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "openclaw.json",
+        "assistant",
+        "read",
+        "path",
+        "users",
+        "openclaw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [cron:9e7ae08e-4967-48ca-a1ae-2a91931b30d7 睡前问候] 晚安，宝宝！🌙 好好休息，明天见~ Current time: Monday, April 20th, 2026 - 12:54 (Asia/Shanghai) / 2026-04-20 04:54 UTC Return your response as plain text; it will be delivered automatically. If the task explicitly calls for messaging a spe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron",
+        "9e7ae08e",
+        "48ca",
+        "a1ae",
+        "2a91931b30d7",
+        "睡前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: NO_REPLY",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "no-reply",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: [cron:c362ab06-c710-44f9-84d1-ce9679ddfeb2 每日备份] Run the following PowerShell script and report the output: ``` & \"C:\\Users\\002\\.openclaw\\workspace\\skills\\openclaw-backup\\scripts\\backup-task.ps1\" ``` If the output contains DONE:, report that the backup succeeded and include",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "openclaw-backup",
+        "backup-task.ps1",
+        "user",
+        "cron:c362ab06",
+        "c710",
+        "44f9"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: [cron:4148f6a7-ef0b-401e-9d4f-9a96815874f4 午间问候] 午安，宝宝！🍃 还没到午饭点呢，刚过午时没多久~ 宝宝你呢，吃了吗？ Current time: Monday, April 20th, 2026 - 12:53 (Asia/Shanghai) / 2026-04-20 04:53 UTC Return your response as plain text; it will be delivered automatically. If the task explicitly calls fo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron",
+        "4148f6a7",
+        "ef0b",
+        "401e",
+        "9d4f",
+        "9a96815874f4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK （检查时间：12:53，未到午餐高峰，继续观察。）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant",
+        "检查",
+        "时间",
+        "未到",
+        "午餐",
+        "高峰",
+        "继续"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: [cron:53d0cda8-6571-499e-aef8-beb2d0095f4e 晚间问候] 晚上好，宝宝！🌙 今天过得怎么样？ Current time: Monday, April 20th, 2026 - 12:53 (Asia/Shanghai) / 2026-04-20 04:53 UTC Return your response as plain text; it will be delivered automatically. If the task explicitly calls for messaging a spe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "user",
+        "cron",
+        "53d0cda8",
+        "499e",
+        "aef8",
+        "beb2d0095f4e",
+        "晚间"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: indígentts{\"text\": \"晚上好，宝宝！🌙 今天过得还顺利吗？有什么需要我帮你整理或安排的吗？\", \"channel\": \"weixin\"})",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "indígentts",
+        "晚上",
+        "宝宝",
+        "今天",
+        "过得",
+        "顺利",
+        "什么"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: A new session was started via /new or /reset. If runtime-provided startup context is included for this first turn, use it before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "runtime-provided",
+        "user",
+        "new",
+        "was",
+        "started",
+        "via",
+        "reset",
+        "runtime"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 宝宝，现在是2026年4月20日中午12点54分。有什么可以帮你？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T05:01:25.941Z",
+      "lastRecalledAt": "2026-04-20T05:01:25.941Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "宝宝",
+        "现在",
+        "中午",
+        "什么",
+        "可以"
+      ]
+    }
+  }
+}
