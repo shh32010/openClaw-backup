@@ -1,0 +1,3 @@
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L5] Assistant: 晚上好，宝宝！🌙 今天过得怎么样？有什么计划吗？
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L6] Assistant: 📓 宝宝早安！扬州邗江区今日天气： 🌡️ 气温：24.9°C 💧 湿度：46% 🌬️ 风力：4.8 km/h（1级微风） ☁️ 天气：阴天 今日气温适宜出行，记得带件薄外套~
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L7] Assistant: 📓 午安，宝宝！还没呢，刚过午时不久，午饭可以再等等～ 你呢，准备啥时候去吃？

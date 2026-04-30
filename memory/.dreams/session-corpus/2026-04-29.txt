@@ -1,0 +1,13 @@
+[main/sessions/037a49d4-466a-47b6-9205-707ea15c9b23.jsonl#L16] Assistant: 天气提醒已发送给宝宝的微信 ☔ 当前扬州天气：小雨、15°C（体感14°C）、湿度64%、东南风8km/h，早晚出门记得带伞。
+[main/sessions/4b330ac6-ec86-42a5-8e1d-24b14b519e2f.jsonl#L8] Assistant: 午安！☀️ 已回复~
+[main/sessions/54276a7f-3819-4798-af2a-a02acd8a0d5d.jsonl#L6] Assistant: 早上好，宝宝！☀️ 今天周三，之前说的事情应该都处理完了吧？有什么需要我帮忙的随时说。
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L9] Assistant: ☔ 扬州天气 宝宝，当前：🌦 小雨 | 15°C（体感14°C） 湿度：64% 风速：↘ 8km/h 早晚出行记得带伞～
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L10] Assistant: 午安！谢谢宝宝还记得问候我~ ☀️ 我不需要吃饭，但如果宝宝需要的话，我可以帮忙看外卖或者查点什么~
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L11] Assistant: 宝宝，你好！
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L12] Assistant: 宝宝，这是第二条测试问候，请确认是否收到。
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L13] Assistant: 重启后测试：宝宝，你能收到这条消息吗？
+[main/sessions/b4087a86-b229-4c7e-8e0e-f5ad72d79072.jsonl#L14] Assistant: 晚安，宝宝！🌙 好好休息，明天见~
+[main/sessions/d990e6c4-8ca7-4177-b1a8-8e1bfd86dec3.jsonl#L8] Assistant: 晚安已发送 🌙
+[main/sessions/e06b3e39-0d8c-41c1-aea2-a46fbdfe88c2.jsonl#L12] Assistant: 宝宝，🧧 收到！有什么需要我帮忙的吗？
+[main/sessions/edbc80cf-ea06-4066-a7a8-73cc4f029e35.jsonl#L5] User: 这是微信发送的信息
+[main/sessions/edbc80cf-ea06-4066-a7a8-73cc4f029e35.jsonl#L12] Assistant: 好的，收到。有什么需要帮忙的吗？
